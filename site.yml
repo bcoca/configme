@@ -1,0 +1,5 @@
+- name: get var from inventory
+  hosts: all
+  gather_facts: False
+  tasks:
+    - debug: var=testvar
