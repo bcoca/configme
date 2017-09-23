@@ -1,5 +1,5 @@
 - name: get var from inventory
-  hosts: all
+  hosts: erebos
   gather_facts: False
   tasks:
     - debug: var=testvar
