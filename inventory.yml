@@ -1,5 +1,5 @@
 all:
   hosts:
     erebos:
-      vars:
-        testvar: from pull
+      testvar: from pull
+      ansible_connection: local
