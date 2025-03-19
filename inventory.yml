@@ -8,7 +8,7 @@ all:
       ansible_connection: local
     hermes:
       testvar: from pull 2
-      ansible_connection: local
+      ansible_connection: ssh
     glass:
       testvar: from pull 3
       ansible_connection: local
